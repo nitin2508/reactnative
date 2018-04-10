@@ -3,14 +3,18 @@ import {connect} from 'react-redux';
 import {View,Text,Button,TextInput,StyleSheet,ScrollView,Image} from 'react-native';
 import PlaceInput from '../../components/PlaceInput/PlaceInput'
 import {addPlace} from '../../store/actions/index';
-import DefaultInput from '../../components/UI/DefaultInput/DefaultInput';
 import HeadingText from '../../components/UI/HeadingText/HeadingText';
 import MainText from '../../components/UI/MainText/MainText';
 import imagePlaceholder from '../../assets/beautiful-place.jpg';
+import PickImage from '../../components/PickImage/PickImage';
+import PickLocation from '../../components/PickLocation/PickLocation';
 class SharePlaceScreen extends Component{
     constructor(props){
         super(props);
         this.props.navigator.setOnNavigatorEvent(this.onNavigatorEvent);
+    }
+    state = {
+        placeName:""
     }
 
     onNavigatorEvent = event=>{
@@ -23,24 +27,28 @@ class SharePlaceScreen extends Component{
        }
     }
 
-    placeAddedHandler = placeName=>{
-        console.log(this.props)
-        this.props.onAddPlace(placeName);
+    placenameChangedHandler = val=>{
+        this.setState({placeName:val})
+    }
+
+    placeAddedHandler = ()=>{
+        if(this.state.placeName.trim() !==""){
+            this.props.onAddPlace(this.state.placeName);
+        }
     }
     render(){
         return(
             <ScrollView>
                 <View style={styles.container}>
-                <MainText><HeadingText>Share a Place with us</HeadingText></MainText>
-                <View style={styles.placeholder}><Image style={styles.previewImage} source={imagePlaceholder}/></View>
-                <View style={styles.button}>
-                <Button onPress={this.placeAddedHandler}  title="Pick Image"></Button>
-                </View>
-                <View style={styles.placeholder}><Text>Map</Text></View>
-                <Button onPress={this.placeAddedHandler} title="Locate Me"></Button>
-                <DefaultInput placeholder="Placename"/>
-                <Button onPress={this.placeAddedHandler}  title="Share the place"></Button>
-                <PlaceInput onPlaceAdded={this.placeAddedHandler}/>
+                    <MainText>
+                        <HeadingText>Share a Place with us</HeadingText>
+                    </MainText>
+                    <PickImage/>
+                    <PickLocation/>
+                    <PlaceInput onChangeText={this.placenameChangedHandler} placeName={this.state.placeName}/>
+                    <View>
+                        <Button onPress={this.placeAddedHandler}  title="Share the place"></Button>
+                    </View>
                 </View>
             </ScrollView>
         )
