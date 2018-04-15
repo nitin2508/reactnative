@@ -184,6 +184,10 @@
         "source": "/home/gaurav/nitin/react-native/awesome-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/notification_template_part_chronometer.xml"
     },
     {
+        "merged": "/home/gaurav/nitin/react-native/awesome-app/android/app/build/intermediates/res/merged/debug/layout/list_item.xml",
+        "source": "/home/gaurav/nitin/react-native/awesome-app/android/app/build/intermediates/exploded-aar/awesomeapp/react-native-image-picker/unspecified/res/layout/list_item.xml"
+    },
+    {
         "merged": "/home/gaurav/nitin/react-native/awesome-app/android/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar_include.xml",
         "source": "/home/gaurav/nitin/react-native/awesome-app/android/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/layout/design_layout_snackbar_include.xml"
     },

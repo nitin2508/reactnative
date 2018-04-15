@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/home/gaurav/nitin/react-native/awesome-app/android/app/build/intermediates/res/merged/debug/xml/provider_paths.xml",
+        "source": "/home/gaurav/nitin/react-native/awesome-app/android/app/build/intermediates/exploded-aar/awesomeapp/react-native-image-picker/unspecified/res/xml/provider_paths.xml"
+    },
+    {
         "merged": "/home/gaurav/nitin/react-native/awesome-app/android/app/build/intermediates/res/merged/debug/xml/preferences.xml",
         "source": "/home/gaurav/nitin/react-native/awesome-app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.54.0/res/xml/preferences.xml"
     }

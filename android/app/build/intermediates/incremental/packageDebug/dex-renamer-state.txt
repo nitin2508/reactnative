@@ -1,4 +1,4 @@
-#Sun Apr 08 14:33:22 IST 2018
+#Sun Apr 15 19:56:46 IST 2018
 base.0=/home/gaurav/nitin/react-native/awesome-app/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 renamed.0=classes.dex
 file.0=/home/gaurav/nitin/react-native/awesome-app/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

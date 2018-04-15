@@ -30,6 +30,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/home/gaurav/nitin/react-native/awesome-app/android/app/build/intermediates/exploded-aar/awesomeapp/react-native-image-picker/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="360c3e87861839146b59294f3e2041ea698b3ba1">
+        <dex dex="/home/gaurav/nitin/react-native/awesome-app/android/app/build/intermediates/pre-dexed/debug/awesomeapp-react-native-image-picker-unspecified_3dac776e918ed23837cec2e3451bee23b08a8bc3.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/gaurav/nitin/react-native/awesome-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -300,6 +309,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/home/gaurav/nitin/react-native/awesome-app/android/app/build/intermediates/exploded-aar/awesomeapp/react-native-maps/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b0ce14ec8daadf745942e9693e71d072e5d3c828">
+        <dex dex="/home/gaurav/nitin/react-native/awesome-app/android/app/build/intermediates/pre-dexed/debug/awesomeapp-react-native-maps-unspecified_273df05a138cf50a3633f78e3145c4dbd5dd3d24.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/gaurav/nitin/react-native/awesome-app/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -327,12 +345,30 @@
     </item>
     <item
         is-multidex="false"
+        jar="/home/gaurav/nitin/react-native/awesome-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/home/gaurav/nitin/react-native/awesome-app/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-10.0.1_8be09db1ccbf9e1048ec97e658159b0ee4a21eb0.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/gaurav/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
         <dex dex="/home/gaurav/nitin/react-native/awesome-app/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_0c7e6661507a62be5e9a2b498bb573422a0655fb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/gaurav/nitin/react-native/awesome-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="/home/gaurav/nitin/react-native/awesome-app/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-10.0.1_f5ea7a18533eb9e48ce5d8c0af1b85936012dbb6.jar" />
     </item>
     <item
         is-multidex="false"
@@ -417,12 +453,30 @@
     </item>
     <item
         is-multidex="false"
+        jar="/home/gaurav/nitin/react-native/awesome-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/home/gaurav/nitin/react-native/awesome-app/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-10.0.1_baa8ab94bf57b7021e4734236dca1682b7744973.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/gaurav/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="f162442a19fff13995fbd51ba414d9ee05579080">
         <dex dex="/home/gaurav/nitin/react-native/awesome-app/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_62432cf0cf72c91cc9942b6f3b78f088a56ce725.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/gaurav/nitin/react-native/awesome-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
+        <dex dex="/home/gaurav/nitin/react-native/awesome-app/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-10.0.1_a0d0be2daf8cb0526c5dd8271bb4cf7361340ea7.jar" />
     </item>
     <item
         is-multidex="false"

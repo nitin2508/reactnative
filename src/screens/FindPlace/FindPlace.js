@@ -43,7 +43,7 @@ class FindPlaceScreen extends Component{
         duration:500,
         useNativeDriver:true
         }).start();
-        // this.setState({placeLoaded:true})
+         this.setState({placeLoaded:true})
     }
 
     render(){
@@ -68,6 +68,8 @@ class FindPlaceScreen extends Component{
 }
 
 const mapStateToProps = state=>{
+    console.log('-------');
+    console.log(state)
     return{
         places:state.places.places
     }
